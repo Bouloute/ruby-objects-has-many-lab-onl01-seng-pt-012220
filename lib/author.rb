@@ -15,7 +15,7 @@ class Author
   def self.post_count
     Post.all
   end
-  
+
   def add_post(post)
     @posts.push(post)
     post.author = self
