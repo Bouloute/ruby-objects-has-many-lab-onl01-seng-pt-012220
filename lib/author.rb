@@ -14,5 +14,6 @@ class Author
 
   def add_post(post)
     @posts.push(post)
+    post.author = self
   end
 end
